@@ -116,4 +116,17 @@ internal class TransactionStoreBaseTest {
 
         assertEquals(1, transactionCore.count("123"))
     }
+
+    @Test
+    internal fun `rollback without transaction`() {
+        assertNull(transactionCore.rollback())
+    }
+
+    @Test
+    internal fun `rollback without transaction doesn't clear value`() {
+        transactionCore.put("foo", "123")
+        transactionCore.rollback()
+
+        assertEquals("123", transactionCore.get("foo"))
+    }
 }
