@@ -23,3 +23,7 @@ Build app:
 ```
 ./gradlew shadowJar
 ```
+
+## Code style 
+
+You also can find examples of my code in my others repositories.
