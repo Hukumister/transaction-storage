@@ -18,3 +18,8 @@ java -jar transaction.jar
 ## Devops stuff
 
 For build, I use shadow jar plugin to simplify it.
+Build app:
+
+```
+./gradlew shadowJar
+```
