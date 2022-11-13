@@ -1,6 +1,7 @@
-package ru.hukumister
+package ru.hukumister.store
 
 import org.junit.jupiter.api.Test
+import ru.hukumister.store.TransactionStoreBase
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
 

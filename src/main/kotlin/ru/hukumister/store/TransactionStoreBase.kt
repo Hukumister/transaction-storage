@@ -1,4 +1,4 @@
-package ru.hukumister
+package ru.hukumister.store
 
 class TransactionStoreBase<K, T> : TransactionStore<K, T> {
 

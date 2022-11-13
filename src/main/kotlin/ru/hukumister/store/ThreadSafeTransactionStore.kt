@@ -1,4 +1,4 @@
-package ru.hukumister
+package ru.hukumister.store
 
 import java.util.concurrent.locks.ReentrantReadWriteLock
 import kotlin.concurrent.read

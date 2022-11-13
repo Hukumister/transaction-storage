@@ -1,6 +1,8 @@
-import ru.hukumister.CommandType
-import ru.hukumister.ThreadSafeTransactionStore
-import ru.hukumister.TransactionStoreBase
+package ru.hukumister.main
+
+import ru.hukumister.store.CommandType
+import ru.hukumister.store.ThreadSafeTransactionStore
+import ru.hukumister.store.TransactionStoreBase
 import java.util.*
 
 private val transactionCore = ThreadSafeTransactionStore(TransactionStoreBase<String, String>())

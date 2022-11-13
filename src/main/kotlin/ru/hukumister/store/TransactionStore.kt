@@ -1,4 +1,4 @@
-package ru.hukumister
+package ru.hukumister.store
 
 interface TransactionStore<K, T> {
 

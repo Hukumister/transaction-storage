@@ -28,7 +28,7 @@ tasks.withType<KotlinCompile> {
 }
 
 application {
-    mainClass.set("MainKt")
+    mainClass.set("ru.hukumister.main.MainKt")
 }
 
 tasks {
@@ -38,7 +38,7 @@ tasks {
         archiveBaseName.set("transaction")
 
         manifest {
-            attributes(mapOf("Main-Class" to "MainKt"))
+            attributes(mapOf("Main-Class" to "ru.hukumister.main.MainKt"))
         }
     }
 }
